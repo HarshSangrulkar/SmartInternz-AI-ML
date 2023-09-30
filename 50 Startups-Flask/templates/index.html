@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>50 Startups</title>
+  </head>
+  <body>
+    <h1>This is a Web Application that predicts PROFIT of Startups</h1>
+    <form action="./login" method="post">
+      <p>R&D Spend</p>
+      <p><input type="text" name="rd" /></p>
+
+      <p>Adminstration</p>
+      <p><input type="text" name="as" /></p>
+
+      <p>Marketing Spend</p>
+      <p><input type="text" name="ms" /></p>
+
+      <label for="states">Choose the State</label>
+      <select name="s" id="">
+        <option value="cal">California</option>
+        <option value="flo">Florida</option>
+        <option value="ny">NewYork</option>
+      </select>
+      <p><input type="submit" value="submit" /></p>
+
+      <h2><b>{{y}}</b></h2>
+    </form>
+  </body>
+</html>
